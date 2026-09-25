@@ -90,8 +90,8 @@ class MotorTransporteInteligente:
 if __name__ == "__main__":
     sistema = MotorTransporteInteligente(conecta)
 
-    origen_test = "Calle 100"
-    destino_test = "Plaza Central"
+    origen_test = "Heroes"
+    destino_test = "Estación Sur"
 
     print(f"\nBuscando TODAS las rutas posibles desde '{origen_test}' hasta '{destino_test}'...\n")
     rutas = sistema.obtener_todas_las_rutas(origen_test, destino_test)
